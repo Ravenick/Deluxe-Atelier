@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.5s ease-in-out;
+}
+
+:root {
+  --bg: #1A1A1A;
+  --theme-color: #362828;
+  --theme-color-light: #6B3233;
+  --theme-color-dark: #372A2E;
+  --theme-color-lighter: #B17C34;
+  /* Text Colors */
+  --text-color: #F9F6F0;
+  --heading-color: #D4C5B9;
+  --highlight-color: #D4AF37;
+  --low-priority-color: #2C2C2C;
+  /* Font Families */
+  --header-font: 'Cinzel', serif;
+  --subheader-font: 'Bodoni Moda', serif;
+  --body-font: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  min-height: 200vh;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-family: var(--header-font);
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--subheader-font);
+}
