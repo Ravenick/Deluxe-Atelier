@@ -1,16 +1,17 @@
-# React + Vite
+# De'luxe Leather Atelier 👞💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-end, responsive e-commerce and portfolio interface built for a premium leather goods atelier based in Abuja, Nigeria. Optimized with a mobile-first philosophy and custom micro-interactions.
 
-Currently, two official plugins are available:
+🔗 **[Live Demo Location](https://vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### ✨ Key Features Implemented
+* **Luxury Micro-Interactions:** Custom hardware-accelerated CSS glass sheen and marquee animations.
+* **Bespoke Product Gallery:** Fluid grid structures showcasing leather collections with blurred modal viewport lenses.
+* **Persistent Curated Wishlist:** Native React state management synchronized directly with `localStorage` to save user selections across sessions.
+* **Continuous Testimonial Engine:** Auto-cycling feedback slider with manual animation override controls.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ Built With
+* React (Vite)
+* Custom CSS3 (Bespoke Luxury UI Variables)
+* Iconify (CSS Class Injection Mapping)
+* Managed & Deployed via Vercel
