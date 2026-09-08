@@ -1,6 +1,6 @@
 import React from 'react'
-import hero from './assets/hero.png';
-import sandal from './assets/sandal.png';
+import hero from '../assets/hero.png';
+import sandal from '../assets/sandal.png';
 
 
 export default function Hero() {
@@ -17,8 +17,8 @@ export default function Hero() {
                 <p className="caption">Experience the finest craftsmanship in leather goods.</p>
             </div>
             <div className="cta-btn">
-                <a href="#" className="learn-more">Learn More</a>
-                <a href="#" className="explore">Explore Collection</a>
+                <a href="#features" className="learn-more" id='learn-more-btn'>Learn More</a>
+                <a href="#gallery" className="explore" id='explore-btn'>Explore Collection</a>
             </div>
             <button
                 type="button"

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './assets/logo (2).png';
+import logo from '../assets/logo (2).png';
 
 
 function Nav() {
@@ -24,10 +24,10 @@ function Nav() {
         <ul id="nav-menu">
             <li>
                 <a href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">Gallery</a>
-                <a href="#">Testimonials</a>
-                <a href="#">Contact</a>
+                <a href="#features">Features</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
     </nav>

@@ -44,3 +44,9 @@ h1 {
 h2, h3, h4, h5, h6 {
   font-family: var(--subheader-font);
 }
+
+hr {
+  border: 1px solid var(--highlight-color);
+  margin: 20px 0;
+  opacity: 0.3;
+}
